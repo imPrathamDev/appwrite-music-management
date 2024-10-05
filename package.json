@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:appwrite": "tsx ./src/server/seed.ts"
   },
   "dependencies": {
     "appwrite": "^16.0.2",
+    "dotenv": "^16.4.5",
     "next": "14.2.14",
     "node-appwrite": "^14.1.0",
     "react": "^18",

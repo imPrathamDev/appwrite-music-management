@@ -5,8 +5,8 @@ const createAlbumArtsBucket = async () => {
   try {
     const MAX_FILE_SIZE = 30_000_000;
     const result = await s.createBucket(
-      storage.musics,
-      storage.musics,
+      storage.albumArts,
+      storage.albumArts,
       undefined,
       true,
       true,
